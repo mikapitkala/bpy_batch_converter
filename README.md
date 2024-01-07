@@ -2,7 +2,7 @@
 
 This little Python script automates the conversion of 3D model files between `.fbx`, `.obj`, and `.stl` formats. It scans a specified directory for 3D models and converts anything that doesn't have a corresponding file in the other formats using the Blender Python API.
 
-This is mostly for purchased asset and kitbash packs somehow always managing to be in the wrong format, when I try to use them in different apps (sculpting, CAD, modeling).
+This is mostly for purchased asset and kitbash packs *somehow* always managing to be in the wrong format, when I try to use them in different apps (sculpting, CAD, modeling).
 
 ## Requirements
 
@@ -16,11 +16,11 @@ No installation is required for the script. Simply run it within Blender or what
 ## Usage
 
 1. Open Blender and go to the `Scripting` tab.
-2. Open the script file `batch_convert.py` in Blender's text editor.
+2. Open the script file `blender_fbx_obj_stl_converter.py` in Blender's text editor.
 3. Press the `Run Script` button to execute the script.
 4. When prompted (in the System console), enter the full path to the directory containing your `.fbx`, `.obj`, or `.stl` files.
 
-1. Or just run it from your code editor of choice.
+Or just run it from your code editor of choice.
 
 ## Limitations
 
